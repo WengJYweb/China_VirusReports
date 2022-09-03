@@ -1,0 +1,136 @@
+/* 基本样式初始化 */
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    box-sizing: border: ;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+/* 头部背景卡 */
+.heard{
+    width: 750px;
+    height: 440px;
+    margin: 0 auto;
+    background: url(../img/heard-bg.png);
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.heard .logo{
+    background: url(../img/Covid-logo.png) no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    padding-left: 70px;
+}
+.heard .learn_morn{
+    display: block;
+    height: 50px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: #e10000;
+    color: white;
+    padding: 0 20px;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 25px;
+}
+.heard p{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 50px;
+    float: left;
+}
+.heard p span{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.cover_cards{
+    width: 688px;
+    height: 390px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+    margin-top: -170px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.cover_nav{
+    width: 688px;
+    height: 75px;
+    color: #333333;
+    display: flex;
+    overflow: hidden;
+}
+.cover_cards .cover_nav_1{
+    width: 344px;
+    height: 75px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 75px;
+}
+.cover_cards .cover_nav_2{
+    width: 344px;
+    height: 75px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 75px;
+    background-color: #f1f1f1;
+}
+.cover_body{
+    margin-top: 34px;
+    height: 232px;
+    width: 688px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cover_body>div{
+    width: 227px;
+    height: 116px;
+    border: 1px solid blue; 
+
+}
+.cover_body>div>h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cover_body>div>.number{
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cover_body>div>p{
+    font-size: 20px;
+    text-align: center;
+}
+.cover_body>div>p>span{
+    font-size: 20px;
+}
+.cover_body>div:nth-child(1)>.number{
+    color: #ffa352;
+}
+.cover_body>div:nth-child(1)>p>span{
+    color: #ffa352;
+}
+.cover_body>div:nth-child(2)>.number{
+    color: #ffa352;
+}
+.cover_body>div:nth-child(2)>p>span{
+    color: #ffa352;
+}
